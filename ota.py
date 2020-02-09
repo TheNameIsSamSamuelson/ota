@@ -274,8 +274,8 @@ class HttpClient:
     def delete(self, url, **kw):
         return self.request('DELETE', url, **kw)
 
-ota_updater = OTAUpdater('https://github.com/TheNameIsSamSamuelson/esp32')
-ota_updater.download_and_install_update_if_available('aa', '12345678')
+#ota_updater = OTAUpdater('https://github.com/TheNameIsSamSamuelson/esp32')
+#ota_updater.download_and_install_update_if_available('aa', '12345678')
 # import wifi ?
-wifi.connect()
-ota_updater.check_for_update_to_install_during_next_reboot()
+#wifi.connect()
+#ota_updater.check_for_update_to_install_during_next_reboot()
